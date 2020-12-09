@@ -85,12 +85,12 @@ console.log(ellie1 === ellie2);
 console.log(ellie1 === ellie3);
 
 // equality - puzzler
-console.log(0 == false);
-console.log(0 === false);
-console.log('' == false);
-console.log('' === false);
-console.log(null == undefined);
-console.log(null === undefined);
+console.log(0 == false); // true
+console.log(0 === false); // false
+console.log('' == false); //ture
+console.log('' === false); // false
+console.log(null == undefined); // true
+console.log(null === undefined); // false
 
 // 8. Conditional operators: if
 // if, else if, else
@@ -160,6 +160,14 @@ for (let i = 0; i < 10; i++) {
 
 // break, continue
 // Q1. iterate from 0 to 10 and print only even numbers (use continue)
+
+for(let i = 0; i<10; i++){
+  if(i%2 === 0){
+    continue;
+  }
+  console.log(`i: ${i}`);
+}
+
 for (let i = 0; i < 11; i++) {
   if (i % 2 === 0) {
     continue;
@@ -168,6 +176,14 @@ for (let i = 0; i < 11; i++) {
 }
 
 // Q2. iterate from 0 to 10 and print numbers until reaching 8 (use break)
+
+for (let i = 0; i < 11; i++) {
+  if (i >= 8) {
+    break;
+  }
+  console.log(`q1. ${i}`);
+}
+
 for (let i = 0; i < 11; i++) {
   if (i > 8) {
     break;
