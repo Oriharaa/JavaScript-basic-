@@ -16,7 +16,7 @@ let globalName = 'global name';
 console.log(name);
 console.log(globalName);
 
-// var (don't ever use this!)
+// var (don't ever use this!!)
 // var hoisting (move declaration from bottom to top)
 // has no block scope
 {
