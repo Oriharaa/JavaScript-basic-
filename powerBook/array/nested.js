@@ -32,6 +32,7 @@ console.table([['라이언', 5], ['어피치', 3], ['콘', 2]]);
     doll[2] = doll[0] == '어피치' ? 'female' : 'male'; 
   });
   console.table(dolls);
+  
   dolls.forEach(function(doll, idx){
     doll.pop(); //추가한 성별 다시 제거
   });
