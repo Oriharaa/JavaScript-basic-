@@ -9,6 +9,7 @@ console.log('elem.info: ' + elem.info); //undefined
 //attr 어트리뷰트 추가
 elem.setAttribute('Attr', 123);
 console.log('elem.attr: ' +elem.attr); // undefined
+console.log(elem.getAttribute('attr'));
 
 //클래스 속성 wide 추가
 elem.setAttribute('class', 'wide');
